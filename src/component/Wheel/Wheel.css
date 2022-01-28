@@ -1,0 +1,43 @@
+.WheelContainer {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.Wheel {
+    display: block;
+}
+
+.Spinner {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    -webkit-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.48);
+    box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.48);
+    overflow: hidden;
+}
+
+.Spinner:hover {
+    cursor: pointer;
+}
+
+.Spinner::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    border: 10px solid transparent;
+    border-bottom-color: #000;
+    border-top: none;
+}
+
+.Spinner__Image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

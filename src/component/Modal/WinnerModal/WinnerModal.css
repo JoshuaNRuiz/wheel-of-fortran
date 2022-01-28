@@ -1,0 +1,11 @@
+.WinnerModal__NameDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.WinnerModal__NameDisplay__Name {
+    font-size: 32px;
+    font-family: 'Karmatic Arcade';
+    color: var(--primary-color);
+}

@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #005EAD;
+    --secondary-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Karmatic Arcade';
+    src: url('./fonts/ka1.ttf');
+}
+
+@font-face {
+    font-family: 'Upheaval';
+    src: url('./fonts/upheavtt.ttf');
+}
+
+html {
+    max-width: 960px;
+    margin: auto;
+    background-color: #222;
+}
+
+.App__Title {
+    margin: 24px 0;
+    font-family: 'Upheaval';
+    text-align: center;
+}
+
+.App__Title__Text {
+    color: var(--secondary-color);
+    font-size: 48px;
+}
+
+.App__Body {
+    position: relative;
+    display: flex;
+    margin: 8px;
+    padding: 16px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}

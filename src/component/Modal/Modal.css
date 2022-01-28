@@ -1,0 +1,27 @@
+.Modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    z-index: 1;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.09);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.09);
+}
+
+.Modal__ButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal__ButtonContainer>button {
+    margin: 0 8px;
+    cursor: pointer;
+}
